@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Colors */
+/* End Colors */
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+}
+
+main h1.title {
+  font-size: 27px;
+  font-weight: 200;
+  color: #4c4e61;
+}
+
+main span.highlight {
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #4c4e61;
+}
+
+main p.description {
+  max-width: 580px;
+  font-size: 16px;
+  color: #a3a5ae;
+  text-align: center;
+}
+
+main .container {
+  margin-top: 60px;
+  max-width: 1100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .container .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+main .container .column .card {
+  border-top: 4px solid transparent;
+  padding: 30px;
+  border-radius: 6px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+main .container .column .card h3 {
+  font-weight: 600;
+}
+
+main .container .column .card p {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: #a3a5ae;
+}
+
+main .container .column .card img {
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+}
+
+main .container .column .card.borderCyan {
+  border-color: #45d3d3;
+}
+
+main .container .column .card.borderRed {
+  border-color: #ea5353;
+}
+
+main .container .column .card.borderOrange {
+  border-color: #fcaf4a;
+}
+
+main .container .column .card.borderBlue {
+  border-color: #549ef2;
+}
+
+main .container .column:nth-child(2) {
+  margin: 0 30px;
+}
+
+main .container .column:nth-child(2) .card:nth-child(1) {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  main .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .container .column {
+    width: 100%;
+  }
+  main .container .column .card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
