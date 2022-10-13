@@ -94,7 +94,8 @@ main .container .column .card {
           box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
-main .container .column .card h3 {
+main .container .column .card h2 {
+  font-size: 20px;
   font-weight: 600;
 }
 
